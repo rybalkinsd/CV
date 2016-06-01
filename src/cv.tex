@@ -1,0 +1,136 @@
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+ 
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+\firstname{Sergey} 
+\familyname{Rybalkin} 
+
+
+\address{Moscow}{Russia}
+\mobile{+7 (985) 119 3110}
+\email{yan.brikl@gmail.com}
+
+\photo[70pt][0.4pt]{pictures/picture} 
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle
+
+
+\section{Profile}
+Highly skilled software developer with 5 years of experience in various projects(from scientific to gamedev), specialist in Java and backend architecture.
+I regularly improve my skills, taking part in conferences, meet-ups and courses.
+I'm also interested in highload and performance.
+
+\section{Skills Summary}
+
+\cvitem{}{Java, Java Core, Guava, Spring, Hazelcast, ElasticSearch, C++, UnrealEngine 4, Scala, Python, JavaScript, Selenium, Maven, Git, Mercurial, JMeter, jUnit}
+
+
+\section{Education}
+
+\cventry{2008--2013}{Moscow State University}{Faculty of Computational Mathematics and Cybernetics}{}{}{Degree: Specialist in Computer Science.}
+
+\cventry{2012}{Yandex Computer Science School}{}{}{}{}
+
+\cventry{2011}{Netcracker Java School}{}{}{}{}
+
+\section{Experience}
+
+\subsection{Mail.Ru Group}
+
+\cventry{March 2015 -- Present}{Senior Game Mechanics Engineer}{}{}{}{
+	F.R.A.G - multiplayer online game client-server game. \url{https://frag.mail.ru}
+	\newline{}
+	Responsibilities:
+	\begin{itemize}
+		\item game mechanics implementing,
+		\item performance, stability and architecture improvement,
+		\item Unreal Engine 4 integration,
+		\item code review.
+	\end{itemize}
+}
+
+
+\subsection{Sportmaster}
+
+\cventry{March 2014 -- March 2015}{Senior Software Developer}{}{}{}{
+	\url{http://www.sportmaster.ru} e-commerce platform.
+	\newline{}
+	Responsibilities:
+	\begin{itemize}
+		\item performance, stability and architecture improvement in multithreaded environment,
+		\item persistent client cart developing,
+		\item highload web services developing,
+		\item human-readable url service developing,
+		\item NoSQL data structure optimizing.
+	\end{itemize}	
+	Achievements:
+	\newline{}
+	\hspace*{0.5cm} Stable site and WS performance at over 5 mil unique users a day.
+	\newline{}
+	\hspace*{0.5cm} Client cart architecture adopted for implementing recommendation services.
+}
+
+\subsection{ZDTech, LLC}
+
+\cventry{March 2014 -- March 2015}{Senior Java Developer}{}{}{}{
+	UMEN project -- high performance platform for realtime crowd dynamics analysis.
+	\newline{}
+	Responsibilities:
+	\begin{itemize}
+		\item architecture and performance improvement,
+		\item scalable algorithms and data structures design (graph mostly),
+		\item code review and scrum lead,
+		\item implementation launch configurations via Eclipse RCP (statistics,
+benchmarking, complex tests of releases).
+	\end{itemize}	
+	Achievements:
+	\newline{}
+	\hspace*{0.5cm} Developed scalable multi-threaded genetic algorithms for path-find problems.
+	\newline{}
+	\hspace*{0.5cm} Developed scalable application which could analyse over 1 million people acting together.
+	\newline{}
+	\hspace*{0.5cm} Introduced our solutions on COMOD scientific conference in St. Petersburg and Ukraine scientific conference in Rivne.
+	\newline{}
+	\hspace*{0.5cm} Patent \#2013618329.
+}
+
+\cventry{November 2011 -- November 2012}{Java Developer}{}{}{}{
+	UMEN project -- high performance platform for realtime crowd dynamics analysis.
+	\newline{}
+	Responsibilities:
+	\begin{itemize}
+		\item Java and Groovy development,
+		\item scalable algorithms and data structures design (graph mostly).
+	\end{itemize}	
+	Achievements:
+	\newline{}
+	\hspace*{0.5cm} Developed application from basic architecture to first commercial product version.
+	\newline{}
+	\hspace*{0.5cm} Developed statistics and logging analysis modules.
+}
+
+\section{NIIAS, OJSC}
+
+\cventry{December 2010 -- November 2011}{Junior Java Developer}{}{}{}{
+	Sochi-2014 Crowd Modelling project – realtime crowd dynamics analysis application.
+	\newline{}
+	Responsibilities:
+	\begin{itemize}
+		\item Java / C++ and Python development,
+		\item jUnit and integration testing.
+	\end{itemize}	
+}
+
+\end{document}
